@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.9+commit.e5eed63a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -80,9 +80,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/lottery/lottery.sol": "Lottery"
+			"contracts/basics/lottery.sol": "Lottery"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -94,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/lottery/lottery.sol": {
-			"keccak256": "0x7c116c8a1f0f0a5837e2dc0923ae3b59d7b378ce1d4f8cc5d2bd030441985b7e",
+		"contracts/basics/lottery.sol": {
+			"keccak256": "0x9b57173210fd428492c6a29281b427325db624ac826dd4e78350be70c568ecd9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://425cb76d2ecaf0a035d82072e5eac28c68cc85ba95a35fb19e6ea55b3f57876c",
-				"dweb:/ipfs/QmegmfA7bYtpqxvS37yBEiRgLr261Mt13jmDE5ySNismiU"
+				"bzz-raw://ce72e6d7273b35292bc22b70e87bec11b4fb0dbd5faa6c9fe37afe8e4fcfbc3a",
+				"dweb:/ipfs/QmZJVBGEJVXYMrDzU3QawguY6CQsx5GGY94Xcf3YR1v7ne"
 			]
 		}
 	},
