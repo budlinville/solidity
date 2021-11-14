@@ -6,7 +6,10 @@ pragma solidity >=0.5.0 <0.9.0;
 // https://eips.ethereum.org/EIPS/eip-20
 // -----------------------------------------
 
+// NOTE: Below is a full ERC20 token implementation, commented for your benefit.
+
 interface ERC20Interface {
+	// Below three required for transferring from one contract to another
 	function totalSupply() external view returns(uint);
 	function balanceOf(address tokenOwner) external view returns(uint balance);
 	function transfer(address to, uint tokens) external returns(bool success);
@@ -20,13 +23,15 @@ interface ERC20Interface {
 }
 
 contract Cryptos is ERC20Interface {
+	// Below three variables below are actually optional
 	string public name = 'Cryptos';
 	string public symbol = 'CRPT';
-	uint public decimals = 0;
+	uint public decimals = 0;  // Number of decimals after decimal point (18 is most commons)
 
+	// Keyword 'public' automatically generates getter, so it is sufficient for this to be a state variable
 	uint public override totalSupply;
 
-	address public founder;
+	address public founder;  // also not required
 	mapping(address => uint) public balances;
 	mapping(address => mapping(address => uint)) allowed;
 
