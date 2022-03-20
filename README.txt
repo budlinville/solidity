@@ -1,3 +1,5 @@
+Code for the following Udemy course: https://www.udemy.com/course/master-ethereum-and-solidity-programming-with-real-world-apps/
+
 REMIX EXAMPLE PROJECT
 
 Remix example project is present when Remix loads very first time or there are no files existing in the File Explorer. 
